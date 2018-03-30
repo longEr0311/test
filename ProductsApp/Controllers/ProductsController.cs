@@ -10,6 +10,7 @@ namespace ProductsApp.Controllers
 {
     public class ProductsController : ApiController
     {
+        // 数组
         Product[] products = new Product[]
         {
             new Product { Id = 1, Name = "Tomato Soup", Category = "Groceries", Price = 1 },
